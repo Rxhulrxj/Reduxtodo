@@ -9,8 +9,8 @@ import Middlewareexample from './middleware';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    {/* <App /> */}
-    <Middlewareexample />
+    <App />
+    {/* <Middlewareexample /> */}
   </Provider>
 );
 
